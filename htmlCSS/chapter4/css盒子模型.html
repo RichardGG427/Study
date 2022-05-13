@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding:0;
+        }
+
+        .big{
+            width: 500px;
+            height: 500px;
+            background-color: red;
+            padding: 10px;
+        }
+        .small{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            padding:10px 5px 20px;
+            margin-left: 10px;
+            border-left: 10px dotted black;
+        }
+        .box{
+            box-sizing: border-box;
+            width:200px;
+            height:200px;
+            background-color:green;
+            border: 10px dashed black;
+            padding: 10px;
+        }
+        .top{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            margin-bottom: -20px;
+        }
+        .bottom{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            margin-top: -30px;
+        }
+        .father{
+            width: 200px;
+            height:200px;
+            /* overflow: auto; */
+            background-color: red;
+        }
+        .father::before{
+            display: table;
+            content: "";
+        }
+        .son{
+            width: 50px;
+            height:50px;
+            margin-top: 20px;
+
+            background-color: blue;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="big">
+        <div class="small">
+
+        </div>
+
+    </div>
+    <br>
+    <div class="box">
+
+    </div> -->
+    <!-- <div class="top">
+
+    </div>
+    <div class="bottom">
+
+    </div> -->
+    <div class="father">
+        <div class="son">
+
+        </div>
+    </div>
+</body>
+</html>

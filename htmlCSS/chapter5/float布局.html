@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            /* float:left; */
+        }
+        .b{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            float:left;
+        }
+        span{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            float:left;
+        }
+        img{
+            float:left;
+        }
+        .box1{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+        }
+        .box2{
+            width: 200px;
+            /* height: 100px; */
+            background-color: rgb(0, 255, 81);
+        }
+        .box2::after{
+            clear: both;
+            content: '';
+            display: block;
+        }
+        .box3{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(255, 0, 0);
+        }
+        .left{
+            width: 50px;
+            height: 50px;
+            background-color: bisque;
+            float: left;
+        }
+        .right{
+            width: 50px;
+            height: 50px;
+            background-color: blueviolet;
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="a"></div>
+    <div class="b"></div>
+    <span>小滴课堂</span>
+    <br/>
+    <img src="	https://file.xdclass.net/xdclass/xdclass_logo.png" alt="小滴课堂">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime facere sapiente optio blanditiis ex numquam, quisquam ab dolores vero atque quaerat modi placeat laboriosam voluptatum suscipit mollitia dolorem neque assumenda excepturi incidunt repellendus magnam dolore unde tempore! Ea corporis <br/>sapiente maxime est. Repellendus, aspernatur maiores hic saepe unde delectus reprehenderit magnam tempora, vitae dignissimos earum nemo, voluptatibus quas officia maxime cum laudantium a fugiat exercitationem assumenda dolorem facere. Optio dolor numquam blanditiis culpa! Ea ex saepe temporibus ipsa hic officiis iusto, aliquid a cumque velit ratione tenetur voluptatem, voluptas animi asperiores officia optio culpa natus eligendi vel laborum nesciunt iste explicabo expedita? At esse veritatis quibusdam illum reprehenderit excepturi molestias vitae, repellendus porro nobis provident! Eaque qui dolore inventore cum architecto eum quisquam suscipit obcaecati, facere consectetur voluptatibus autem aspernatur labore reprehenderit at a ducimus nostrum adipisci. Ratione, assumenda nostrum, delectus possimus enim autem inventore modi repellendus, recusandae maxime officiis ipsa molestias corporis. Quos aliquid fugiat vel quidem sunt architecto voluptatum sint! Magnam sapiente, deleniti dicta totam ipsum, sint ab fugit harum, voluptates porro aut dignissimos nobis minus ipsam error labore consequatur omnis iusto veniam maiores cum? Necessitatibus, hic error! Eveniet cumque pariatur odit ex illo consequatur dolorum nulla numquam nihil cum nam, tempore officia optio accusantium placeat et porro est quia. Inventore, cum voluptatibus. Similique repudiandae consectetur voluptatum molestiae accusantium harum pariatur velit, non quisquam veritatis, iste rerum ipsam aut fuga error expedita ipsa labore totam corporis inventore unde quis explicabo consequuntur. Porro officia odit deleniti unde cum quas veritatis ipsum, saepe dicta doloremque qui fugiat dolorum illo libero officiis mollitia facere neque consectetur itaque non expedita. Neque quo eum quibusdam veritatis adipisci! Voluptate numquam dolorem consequatur explicabo quis eaque hic deserunt asperiores maxime reiciendis. Delectus, expedita illum nihil officiis incidunt saepe fugit non deserunt ullam earum accusamus dicta!
+    <div class="box1"></div>
+    <div class="box2">
+        <div class="left">左边盒子</div>
+        <div class="right">右边盒子</div>
+    </div>
+    <div class="box3"></div>
+</body>
+</html>
